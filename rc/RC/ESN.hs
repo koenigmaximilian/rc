@@ -12,6 +12,8 @@ The code below is intended for research purposes.
 
 module RC.ESN where
 
+import Prelude hiding ((<>))
+
 import           Numeric.LinearAlgebra
 import           System.Random ( StdGen
                                , split
