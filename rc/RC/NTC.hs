@@ -20,6 +20,7 @@ import           Numeric.LinearAlgebra
 import           System.Random ( StdGen
                                , split
                                )
+import Prelude hiding ((<>))
 import qualified Data.List as List
 import qualified Data.Vector.Storable as V
 import qualified Data.Vector.Storable.Mutable as VM
